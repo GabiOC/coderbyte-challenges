@@ -7,7 +7,6 @@ is a prime number, otherwise return the string false. The range will be between 
 - check if number is whole number. If it isn't, it will not be prime 
 - check every whole number from 2 to sqrt of n -- if any divides n exactly (remainder == 0), return false
 - else return true
-
 */
 
 function primeTime(num){
