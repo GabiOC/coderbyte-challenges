@@ -9,7 +9,7 @@ PSEUDO CODE
 - return length (count of) */
 
 function vowelCount(str){
-	return vowels = str.toLowerCase().match(/[aeiou]/g).length;
+	return str.toLowerCase().match(/[aeiou]/g).length;
 }
 
 console.log(vowelCount("gabi")); // 2
