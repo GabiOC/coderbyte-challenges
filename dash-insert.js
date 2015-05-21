@@ -23,4 +23,4 @@ function dashInsert(num){
 }
 
 console.log(dashInsert(454793)); // 4547-9-3
-console.log(dashInsert(123));
+console.log(dashInsert(123)); // 123

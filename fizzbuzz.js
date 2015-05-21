@@ -7,6 +7,7 @@ function fizzBuzz(num) {
         	else {
         		console.log("Buzz");
         	}
+        }
         else if(i % 3 == 0){
         	console.log("Fizz");
         }
