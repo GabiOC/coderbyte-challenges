@@ -1,5 +1,7 @@
 /* PROBLEM
-write method that returns which cats have hats at the end of 100 passes
+write method that returns which cats have hats at the end of 100 passes, where the hat is toggled on each pass. the first pass,
+you stop at each cat and add a hat, the 2nd pass, you stop at every 2nd cat and toggle (remove) the hat, 3rd pass, you stop
+at every 3rd cat and toggle the hat and so on.
 
 - check if cat is divisible by pass
 - check whether cat currently has or does not have a hat
