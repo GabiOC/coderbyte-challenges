@@ -16,10 +16,10 @@ function catHats(num){
 
 	for(var cat = 1; cat <= num; cat++){
 		for(var pass = 1; pass <= num; pass++){
-			if(cat % pass == 0 && hat.indexOf(cat) == -1){ // check if cat is divisible by pass and that cat currently has no hat
+			if(cat % pass == 0 && hat.indexOf(cat) == -1){ // check if cat is divisible by pass and not in hat array (i.e. currently no hat)
 				hat.push(cat); // add cat to hat array
 			}
-			else if(cat % pass == 0 && hat.indexOf(cat) > -1){ // check if cat is divisible by pass
+			else if(cat % pass == 0 && hat.indexOf(cat) > -1){ // check if cat is divisible by pass and in hat array (i.e. currently has hat)
 				hat.pop(cat); // remove cat from hat array
 			}
 		}
