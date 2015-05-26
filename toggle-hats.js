@@ -1,7 +1,5 @@
 /* PROBLEM
 write method that returns which cats have hats at the end of 100 passes
-- ex. cat 8, divisible by 1, 2, 3 and 4 will not have a hat at the end because it's added in 1st pass, removed 2nd, added 3rd, removed 4th
-
 
 - check if cat is divisible by pass
 - check whether cat currently has or does not have a hat
