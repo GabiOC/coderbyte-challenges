@@ -12,7 +12,7 @@ write method that returns which cats have hats at the end of 100 passes
 
 
 function catHats(num){
-	var hat = [];
+	var hat = []; // empty array to store which cats have hats
 
 	for(var cat = 1; cat <= num; cat++){
 		for(var pass = 1; pass <= num; pass++){
