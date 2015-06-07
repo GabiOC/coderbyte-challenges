@@ -18,11 +18,11 @@ function secondGreatLow(arr){
 		return arr.indexOf(num) == index; // found here: http://mikeheavers.com/main/code-item/removing_duplicates_in_an_array_using_javascript
 	});
 	
-	noDupes.sort(function(a, b){ return a - b});
+	noDupes.sort(function(a, b){ return a - b}); // sort array in asc order
 	return noDupes[1] + " " + noDupes[noDupes.length -2];
 }
 
 console.log(secondGreatLow([7, 98, 12, 56, 106])); // 12 98
 console.log(secondGreatLow([7, 12])); // 7 12
 console.log(secondGreatLow([100, 200, 3, 400, 5, 1])); // 3 200
-console.log(secondGreatLow([2,2,2,5,5,5,6])); // 5 5
+console.log(secondGreatLow([2,2,2,5,5,5,6])); // 5 5d
